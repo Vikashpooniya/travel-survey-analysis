@@ -87,6 +87,7 @@ ENV/
 
 # Model files
 *.pkl
+!models/travel_survey_model.pkl
 *.joblib
 *.h5
 *.model
@@ -135,3 +136,16 @@ logs/
 .env.development.local
 .env.test.local
 .env.production.local
+
+
+# Local environment
+.venv/
+
+# Temporary model files
+models/travel_survey_model_backup.pkl
+models/test_small_model.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
